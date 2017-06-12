@@ -1,0 +1,15 @@
+(from the root directory)
+
+    ./bin/panorama video_path output_image_name
+
+OR
+
+    ./bin/panorama camera_index output_image_name
+
+Here,
+
+        video_path is the path of video file on which panorama is to be made.
+
+        camera_index is the index of the camera. It can be 0/1/2
+
+        output_image_name is the desired name of the output panorama.
