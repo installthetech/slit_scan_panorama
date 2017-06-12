@@ -277,4 +277,5 @@ bool PRIMEPANO::WARPIMAGE(Mat& thisColorFrame, double FOV, double SCALE,  bool S
   }
   warped.release();
   //mask.release();
+  return true;
 }
